@@ -33,7 +33,13 @@ I've written a complete tutorial series for this application on The CalliCoder B
 
 	+ create `src/main/resources/secrets.properties` file.
 
-	+ add `spring.datasource.url=jdbc:mysql://localhost:3306/${DB_NAME}?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false`, `spring.datasource.username=${DB_USERNAME}`, and `spring.datasource.password=${DB_PASSWORD}` properties as per your mysql installation
+	+ add properties below as per your mysql installation
+
+	```bash
+	spring.datasource.url=jdbc:mysql://localhost:3306/${DB_NAME}?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+	spring.datasource.username=${DB_USERNAME}
+	spring.datasource.password=${DB_PASSWORD}
+	```
 
 4. **Run the app**
 
