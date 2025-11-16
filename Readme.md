@@ -77,3 +77,6 @@ npm install && npm start
 ```
 
 The front-end server will start on port `3000`.
+
+## Acknowledgements
+- This project was borne out of [Original Repo](https://github.com/callicoder/spring-security-react-ant-design-polls-app)
