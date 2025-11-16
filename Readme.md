@@ -36,7 +36,7 @@ I've written a complete tutorial series for this application on The CalliCoder B
 	+ add properties below as per your mysql installation
 
 	```bash
-	spring.datasource.url=jdbc:mysql://localhost:3306/${DB_NAME}?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+	spring.datasource.url=jdbc:mysql://localhost:3306/${DB_NAME}?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
 	spring.datasource.username=${DB_USERNAME}
 	spring.datasource.password=${DB_PASSWORD}
 	```
