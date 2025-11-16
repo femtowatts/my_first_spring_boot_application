@@ -31,9 +31,9 @@ I've written a complete tutorial series for this application on The CalliCoder B
 
 3. **Change MySQL username and password as per your MySQL installation**
 
-	+ open `src/main/resources/application.properties` file.
+	+ create `src/main/resources/secrets.properties` file.
 
-	+ change `spring.datasource.username` and `spring.datasource.password` properties as per your mysql installation
+	+ add `spring.datasource.url=jdbc:mysql://localhost:3306/${DB_NAME}?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false`, `spring.datasource.username=${DB_USERNAME}`, and `spring.datasource.password=${DB_PASSWORD}` properties as per your mysql installation
 
 4. **Run the app**
 
